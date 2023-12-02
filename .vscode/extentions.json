@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "bmewburn.vscode-intelephense-client",
+        "oderwat.indent-rainbow",
+        "mhutchie.git-graph",
+        "seatonjiang.gitmoji-vscode"
+    ]
+}
