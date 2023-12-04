@@ -18,8 +18,6 @@ Les pré-requis pour cette formation sont les suivants :
 
 ---
 
-## Jour 1
-
 ### Introduction
 
 Prise en main du langage PHP, apprendre à écrire du code PHP, comprendre les bases du langage. Série d'exercices pour mettre en pratique les notions vues avec l'implémentation d'algorithmes simples.
