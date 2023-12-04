@@ -94,8 +94,24 @@ Quelque soit la valeur de `$total`, le résultat sera toujours le même. Les con
 
 Comme dans tous les langages de programmation, PHP dispose d'opérateurs arithmétiques, de comparaison et logiques. Petit récap :
 
-| Opérateur | Desc | Exemple | Ré |
-| --------- | ------------------ | ----------------------- | ---------------- | Addi | `5 + 2` | `7 | Sous | `5 - 2`  |`3 | Mult | `5 * 2` | `1 | Divi | `5 / 2`  |`2 | Modu | `5 % 2` | `1 | Expo | `5 \*\* 2` |`2 | Égal | `5 == 2` | `f | Diff | `5 != 2` |`t | Différence de type | `5 !== '5 | `t | Supé | `5 > 2` | `t       | Infé    | `5 < 2`     |`f | Supérieur ou égal | `5 >= 2` | `t       | Inférieur ou égal  | `5 <= 2` |`f | ET l | `true &&     | `f | OU l | `true \|\    | `t | NON | `!true` | `f       | Conc    | `'Salut '`.`'Martin'`|`'Salut Martin'` |
+| Opérateur | Desc | Exemple | Résultat |
+| --------- | ------------------ | ----------------------- | ---------------- | 
+Addi | `5 + 2` | `7 | 
+Sous | `5 - 2`  |`3 | 
+Mult | `5 * 2` | `1 | 
+Divi | `5 / 2`  |`2 | 
+Modu | `5 % 2` | `1 | 
+Expo | `5 \*\* 2` |`2 | 
+Égal | `5 == 2` | `f | 
+Diff | `5 != 2` |`t | 
+Différence de type | `5 !== '5 | `t | 
+Supé | `5 > 2` | `t       | 
+Infé    | `5 < 2`     |`f | 
+Supérieur ou égal | `5 >= 2` | `t       | 
+Inférieur ou égal  | `5 <= 2` |`f | ET l | `true &&     | `f | 
+OU l | `true \|\    | `t | 
+NON | `!true` | `f       | 
+Concatenation    | `'Salut '`.`'Martin'`|`'Salut Martin'` |
 
 #### Les structures conditionnelles
 
