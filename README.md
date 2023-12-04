@@ -96,22 +96,22 @@ Comme dans tous les langages de programmation, PHP dispose d'opérateurs arithm�
 
 | Opérateur | Desc | Exemple | Résultat |
 | --------- | ------------------ | ----------------------- | ---------------- | 
-Addi | `5 + 2` | `7 | 
-Sous | `5 - 2`  |`3 | 
-Mult | `5 * 2` | `1 | 
-Divi | `5 / 2`  |`2 | 
-Modu | `5 % 2` | `1 | 
-Expo | `5 \*\* 2` |`2 | 
-Égal | `5 == 2` | `f | 
-Diff | `5 != 2` |`t | 
-Différence de type | `5 !== '5 | `t | 
-Supé | `5 > 2` | `t       | 
-Infé    | `5 < 2`     |`f | 
-Supérieur ou égal | `5 >= 2` | `t       | 
-Inférieur ou égal  | `5 <= 2` |`f | ET l | `true &&     | `f | 
-OU l | `true \|\    | `t | 
-NON | `!true` | `f       | 
-Concatenation    | `'Salut '`.`'Martin'`|`'Salut Martin'` |
+| Addi | `5 + 2` | `7 | 
+| Sous | `5 - 2`  |`3 | 
+| Mult | `5 * 2` | `1 | 
+| Divi | `5 / 2`  |`2 | 
+| Modu | `5 % 2` | `1 | 
+| Expo | `5 \*\* 2` |`2 | 
+| Égal | `5 == 2` | `f | 
+| Diff | `5 != 2` |`t | 
+| Différence de type | `5 !== '5 | `t | 
+| Supé | `5 > 2` | `t       | 
+| Infé    | `5 < 2`     |`f | 
+| Supérieur ou égal | `5 >= 2` | `t       | 
+| Inférieur ou égal  | `5 <= 2` |`f | ET l | `true &&     | `f | 
+| OU l | `true \|\    | `t | 
+| NON | `!true` | `f       | 
+| Concatenation    | `'Salut '`.`'Martin'`|`'Salut Martin'` |
 
 #### Les structures conditionnelles
 
