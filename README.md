@@ -225,21 +225,7 @@ Sans plus tarder, mettons en place un formulaire d'inscription pour notre site w
 ```php
 # index.php
 
-<form action="signup.php" method="post">
-    <fieldset>
-        <legend>Inscription</legend>
-        <input type="text" name="name" placeholder="Martin" required>
-    </fieldset>
-    <fieldset>
-        <legend>Votre âge</legend>
-        <input type="number" name="number" placeholder="32" required>
-    </fieldset>
-    <fieldset>
-        <legend>Votre 1er dépôt</legend>
-        <input type="number" name="number" placeholder="1900.50" required>
-    </fieldset>
-    <input type="submit" value="S'inscrire">
-</form>
+ 
 ```
 
 Ici, on a un formulaire avec trois champs : nom, âge et montant du premier dépôt. On a aussi un bouton pour soumettre le formulaire. On a ajouté un attribut `action` à la balise `form` pour indiquer l'URL de la page qui va traiter les données du formulaire. On a aussi ajouté un attribut `method` pour indiquer la méthode HTTP à utiliser pour envoyer les données du formulaire. Dans notre cas, on utilise la méthode `post`.

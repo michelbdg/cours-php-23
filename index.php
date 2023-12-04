@@ -26,11 +26,11 @@ $options = ['livraison en 24h', 'paimement en 3 fois'];
             </fieldset>
             <fieldset>
                 <legend>Votre âge</legend>
-                <input type="number" name="number" placeholder="32" required>
+                <input type="number" name="age" placeholder="32" required>
             </fieldset>
             <fieldset>
                 <legend>Votre 1er dépôt</legend>
-                <input type="number" name="number" placeholder="1900.50" required>
+                <input type="number" name="amount" placeholder="1900.50" required>
             </fieldset>
             <input type="submit" value="S'inscrire">
         </form>
