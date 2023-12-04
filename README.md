@@ -94,24 +94,28 @@ Quelque soit la valeur de `$total`, le résultat sera toujours le même. Les con
 
 Comme dans tous les langages de programmation, PHP dispose d'opérateurs arithmétiques, de comparaison et logiques. Petit récap :
 
-| Opérateur | Desc | Exemple | Résultat |
+| Opérateur | Description | Exemple | Résultat |
 | --------- | ------------------ | ----------------------- | ---------------- | 
-| Addi | `5 + 2` | `7 | 
-| Sous | `5 - 2`  |`3 | 
-| Mult | `5 * 2` | `1 | 
-| Divi | `5 / 2`  |`2 | 
-| Modu | `5 % 2` | `1 | 
-| Expo | `5 \*\* 2` |`2 | 
-| Égal | `5 == 2` | `f | 
-| Diff | `5 != 2` |`t | 
-| Différence de type | `5 !== '5 | `t | 
-| Supé | `5 > 2` | `t       | 
-| Infé    | `5 < 2`     |`f | 
-| Supérieur ou égal | `5 >= 2` | `t       | 
-| Inférieur ou égal  | `5 <= 2` |`f | ET l | `true &&     | `f | 
-| OU l | `true \|\    | `t | 
-| NON | `!true` | `f       | 
-| Concatenation    | `'Salut '`.`'Martin'`|`'Salut Martin'` |
+| Addition | Additionne deux nombres | 5 + 5 | 10 |
+| Soustraction | Soustrait deux nombres | 5 - 5 | 0 |
+| Multiplication | Multiplie deux nombres | 5 * 5 | 25 |
+| Division | Divise deux nombres | 5 / 5 | 1 |
+| Modulo | Retourne le reste d'une division | 5 % 5 | 0 |
+| Incrémentation | Incrémente une variable | $a++ | $a = $a + 1 |
+| Décrémentation | Décrémente une variable | $a-- | $a = $a - 1 |
+| Affectation | Affecte une valeur à une variable | $a = 5 | $a = 5 |
+| Plus grand que | Vérifie si un nombre est supérieur à un autre | 5 > 5 | false |
+| Plus petit que | Vérifie si un nombre est inférieur à un autre | 5 < 5 | false |
+| Plus grand ou égal à | Vérifie si un nombre est supérieur ou égal à un autre | 5 >= 5 | true |
+| Plus petit ou égal à | Vérifie si un nombre est inférieur ou égal à un autre | 5 <= 5 | true |
+| Égal à | Vérifie si deux valeurs sont égales | 5 == 5 | true |
+| Strictement égal à | Vérifie si deux valeurs sont égales et du même type | 5 === 5 | true |
+| Différent de | Vérifie si deux valeurs sont différentes | 5 != 5 | false |
+| Strictement différent de | Vérifie si deux valeurs sont différentes ou de types différents | 5 !== 5 | false |
+| ET | Vérifie si deux conditions sont vraies | 5 > 5 && 5 < 5 | false |
+| OU | Vérifie si au moins une condition est vraie | 5 > 5 || 5 < 5 | false |
+| NON | Inverse le résultat d'une condition | !true | false |
+
 
 #### Les structures conditionnelles
 
